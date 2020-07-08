@@ -1,0 +1,57 @@
+.nav{
+    font-family: "McLaren";
+    background-color: #0a0003 !important;
+    background-image: url(http://www.transparenttextures.com/patterns/dark-stripes.png);    
+}
+.info{
+    font-family: "McLaren";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0a0003;
+background-image: url(http://www.transparenttextures.com/patterns/dark-stripes.png);
+}
+.info-head{
+    color: white;
+    margin-top: 6rem;
+    font-size: 4rem;
+}
+.info-subhead{
+    color:#EB0A00;
+    font-size: 4rem;   
+}
+.info-det{
+    color:white;
+    margin: 2rem auto;
+    width: 50%;
+    font-size: large;
+}
+.info-skills{
+    display:flex;
+    color:white;
+    margin: 5rem auto;
+    width: 50%;
+    font-size: large;
+}
+.skills-progress{
+    width: 30rem;
+    margin-left: 15rem;
+}
+.progress-bar{
+    background-color: #EB0A00 !important;
+}
+ProgressBar{
+    margin-top: 4rem;
+}
+.progress{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.profile-image{
+    margin-top: 1rem;
+    width: 15rem;
+    height: 17rem;
+    border-radius: 10%;
+}
