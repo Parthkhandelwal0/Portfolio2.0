@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header"
 import Info from "./Info"
-
+import Project from "./Projects"
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
     <div>
       <Header />
       <Info />
+      <Project />
     </div>
   );
 }

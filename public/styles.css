@@ -1,3 +1,7 @@
+body{
+    background-color: #dffaf5;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
 .nav{
     font-family: "McLaren";
     background-color: #0a0003 !important;
@@ -51,7 +55,33 @@ ProgressBar{
 }
 .profile-image{
     margin-top: 1rem;
-    width: 15rem;
-    height: 17rem;
+    width: 13.5rem;
+    height: 16rem;
     border-radius: 10%;
+}
+  .project-block {
+    width: 30rem;
+    height: 38rem;
+    margin: 3rem 1rem 2rem 20rem;
+    box-shadow: 6px 6px 20px #00000029;
+    border-radius: 80px;
+    padding: 0px 20px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+   font-family: "McLaren";
+      font-size: 1.8rem;
+  } 
+  .project-image{
+    width: 30rem;
+    height: 18rem;
+    border-radius: 10%;
+}
+.project-head{
+    text-align: center;
+    font-family: "McLaren";
+    margin-top: 3rem;
+    font-size: 3.5rem;
 }
