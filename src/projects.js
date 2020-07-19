@@ -5,7 +5,7 @@ const projects = [
       key: 1,
       title: "Delegation",
       content:
-        "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem",
+        "created using flask, sqlalchemy,javascript,css,html it contains dynamic landing and home pages,a register/signin system",
         
         image:"./images/landing.jpeg"
     },
@@ -13,7 +13,7 @@ const projects = [
       key: 2,
       title: "Loops",
       content:
-        "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat.",
+        "a to-do app created using html, css, REACT(javascript frontend library) and materialUI which allows you to add or delete notes",
         image:"./images/landing.jpeg"
 
     },
@@ -21,7 +21,7 @@ const projects = [
       key: 3,
       title: "Arrays",
       content:
-        "Q. Why did the programmer quit his job? A. Because he didn't get arrays.",
+        "a blog website write about stuff that excites you uses NodeJs, Mongodb, Mongoose,Express, Bootsrap, HTML, CSS",
         image:"./images/landing.jpeg"
 
     },
@@ -29,7 +29,7 @@ const projects = [
       key: 4,
       title: "Hardware vs. Software",
       content:
-        "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software.",
+        "a project to track infected, recovered and total death caused by COVID-19, uses html, css,React.js, Material UI,chart.js",
         image:"./images/landing.jpeg"
 
     }

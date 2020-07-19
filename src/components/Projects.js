@@ -9,6 +9,7 @@ function Projects(props){
     <div className="project-head">
     PROJECTS
     </div>
+    <div className="prjct">
     {projects.map((project)=>{
         return(
         <Project 
@@ -19,6 +20,7 @@ function Projects(props){
         />
         )
     })}
+    </div>
     </div>
     )
 }

@@ -7,8 +7,10 @@ function ProjectBlock(props){
         <img src={props.image} alt="Logo" className="project-image" />
             {props.title}
             {props.content}
+            <div className="btns">
             <button>know more</button>
             <button>know more</button>
+            </div>
             </div>
     )
 }

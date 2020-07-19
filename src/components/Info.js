@@ -1,43 +1,39 @@
 import React from "react";
-import {ProgressBar} from "react-bootstrap"
-import ProfilePic from "../images/profile_pic.jpeg"
+
+import Progress from "./progressBar"
 
 const Info = ()=>(
     <div className="info">
-        <div className="info-head">
-          Parth Khandelwal
-        </div>
-        <div className="info-subhead">
-            Web Developer
-        </div>
+       
         <div className="info-det">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-         It has survived not only five centuries, but also the leap into electronic typesetting, r
-         emaining essentially unchanged. It was popularised in the 1960s with the release of Let
-         raset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-          software like Aldus PageMaker including versions of Lorem Ipsum.
+        Hola! I'm Parth Khandelwal and I'm a full-stack web developer currently living in Dwarka, New Delhi. 
+        I try to make responsive and dynamic websites using html,css,javascript and python
+        EDUCATION
+        Currently pursuing Btech in Information Technology from University School Of Information 
+        Communication And Technology (USICT), Dwarka, GGSIPU, New Delhi
+        Graduated from Mount Carmel School, Dwarka in 2018
+        HOBBIES
+        I like to read, play games, listen to music and watch a lot of football
+        Want to know more? View 
         </div>
         <div className="info-skills">
         <div className="skill-text">
             My Professional Skills
-            <img src={ProfilePic} alt="Logo" className="profile-image" />
             </div>
             <div className="skills-progress">
-            ddf
-            <ProgressBar  now={60} label={"60%"} />
-            ddf
-            <ProgressBar now={60} label={"60%"} />
-            ddf
-            <ProgressBar now={60} label={"60%"} />
-            ddf
-            <ProgressBar now={60} label={"60%"} />
-            ddf
-            <ProgressBar now={60} label={"60%"} />
+             Javascript
+             <Progress done="70"/>
+            Python
+            <Progress done="70"/>
+            C++
+            <Progress done="70"/>
+            React
+            <Progress done="70"/>
+            HTML/CSS
+            <Progress done="70"/>
             </div>
         </div>
-    </div>
+     </div>
 )
 
 export default Info;
