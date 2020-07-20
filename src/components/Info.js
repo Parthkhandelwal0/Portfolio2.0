@@ -1,6 +1,7 @@
 import React from "react";
 
-import Progress from "./progressBar"
+import ProgressBar from 'react-animated-progress-bar';
+
 
 const Info = ()=>(
     <div className="info">
@@ -22,15 +23,83 @@ const Info = ()=>(
             </div>
             <div className="skills-progress">
              Javascript
-             <Progress done="70"/>
+<ProgressBar width="500px"
+          height="10px"
+          fontColor="white"
+          trackWidth="10"
+          percentage="40"
+          trackPathColor="grey"
+          trackBorderColor="black"
+          hollowBackgroundColor="#333333"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent: 'green',
+            poor: 'red',
+          }}
+           />
             Python
-            <Progress done="70"/>
+            
+<ProgressBar width="500px"
+          height="10px"
+          fontColor="white"
+          trackWidth="10"
+          percentage="40"
+          trackPathColor="grey"
+          trackBorderColor="black"
+          hollowBackgroundColor="#333333"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent: 'green',
+            poor: 'red',
+          }}
+           />
             C++
-            <Progress done="70"/>
+            
+<ProgressBar width="500px"
+          height="10px"
+          fontColor="black"
+          trackWidth="10"
+          percentage="40"
+          trackPathColor="white"
+          trackBorderColor="black"
+          
+          />
             React
-            <Progress done="70"/>
+            
+<ProgressBar width="500px"
+          height="10px"
+          fontColor="white"
+          trackWidth="10"
+          percentage="40"
+          trackPathColor="grey"
+          trackBorderColor="black"
+          hollowBackgroundColor="#333333"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent: 'green',
+            poor: 'red',
+          }}
+           />
             HTML/CSS
-            <Progress done="70"/>
+            
+<ProgressBar width="500px"
+          height="10px"
+          fontColor="white"
+          trackWidth="10"
+          percentage="40"
+          trackPathColor="grey"
+          trackBorderColor="black"
+          hollowBackgroundColor="#333333"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent: 'green',
+            poor: 'red',
+          }}
+           />
             </div>
         </div>
      </div>
