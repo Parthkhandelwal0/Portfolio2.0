@@ -6,7 +6,7 @@ import ProfilePic from "../images/profile_pic.jpeg"
 const Landing = ()=>(
     <div className="landing">
         <div className="landing-head">
-          Parth Khandelwal
+         &lt; Parth Khandelwal /&gt;
         </div>
         <Typical className="landing-subhead"
             loop={Infinity}
