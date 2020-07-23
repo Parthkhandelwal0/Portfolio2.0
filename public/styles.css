@@ -1,5 +1,6 @@
 *{
     font-family: "McLaren";
+    overflow-x: hidden;
 }
 body{
     background-color: #dffaf5;
@@ -19,7 +20,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
     text-align: center;
     background-color: #0a0003;
 /* background-image: url(http://www.transparenttextures.com/patterns/dark-stripes.png); */
-padding-bottom: 20%;
+padding-bottom: 15%;
 }
 .landing-head{
     color: white;
@@ -60,7 +61,7 @@ padding-bottom: 20%;
     align-items: center !important;
     /* text-align: center; */
     margin-top: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .skills{
     display: flex;
@@ -91,15 +92,16 @@ padding-bottom: 20%;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
   .project-block {
+      position: relative;
     width: 30rem;
     height: 40rem;
-    margin: 3rem auto 10rem auto;
+    margin: 3rem auto 5rem auto;
     box-shadow: 6px 6px 20px #00000029;
     border-radius: 80px;
-    text-align: center;
+    
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -107,8 +109,13 @@ padding-bottom: 20%;
    font-family: "McLaren";
       font-size: 1.8rem;
       background-color: white;
-
   } 
+  .prjct-title{
+      width:80%;
+  }
+  .prjct-content{
+      width: 90%;
+  }
   .project-image{
     width: 30rem;
     height: 18rem;
@@ -118,14 +125,16 @@ padding-bottom: 20%;
     text-align: center;
     margin-top: 3rem;
     font-size: 4rem;
+    margin-bottom: 5rem;
 }
 .btns{
     display: flex;
-    margin:2rem auto 0rem 2.2rem;
-    
+    position: absolute;
+    bottom: 1rem;
 }
 .btns button{
-   margin-left:2rem;
+   margin-left:1rem;
+    margin-right: 1rem;
    box-shadow: 6px 6px 20px #00000029;
   font: Bold 24px Product-Sans;
   color: #000000;
@@ -174,3 +183,60 @@ padding-bottom: 20%;
     margin:1rem;
     font-size: 1.4rem;
 }
+
+/* mobile devices */
+@media screen and (max-width: 700px) {
+    .landing-head{
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+    .landing-subhead{
+        font-size: 2.5rem;   
+    }
+    .info-skills{
+        width: 90%
+    }
+    .info-det{
+        width: 95%;
+        font-size: 1.4rem;
+    }
+    .skill-text{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .skills-progress{
+        display:flex;
+        flex-direction: column;
+    }
+    .prjct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+  .project-block {
+    width: 90%;
+    height: 42rem;
+    margin: 4rem auto 0rem auto;
+      font-size: 1.3rem;     
+  } 
+  .project-image{
+    width: 100%;
+    height: 18rem;
+    border-radius: 80px 80px 80px 80px;
+}
+.project-head{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.btns button{
+   margin:0.5rem;
+    width:10rem;
+}
+} 
