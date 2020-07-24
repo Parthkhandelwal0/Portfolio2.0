@@ -3,13 +3,15 @@ import React from "react";
 const Contact =()=>{
     return(
     <div className="contact">
-        <div className="contact-head">
+        {/* <div className="contact-head">
             Get In Touch
         </div>
         <div className="socials">
+        <div className="icons1">
         <p class="text-grey i1"><i class="fa fa-home fa-fw tcolor "></i>New Delhi, India</p>
         <p class="text-grey i2"><i class="fa fa-envelope fa-fw tcolor"></i><a href="kparth2010@gmail.com">kparth2010@gmail.com</a></p >
         <p class="text-grey i3"><i class="fa fa-phone fa-fw tcolor "></i><a href="tel:+91903489502">(91+) 9013489502</a></p>
+        </div> */}
         <div class="icons2">
             <a href="https://twitter.com/cyborg_parth"  >
                 <i class="fab fa-twitter fa-4x"></i>
@@ -28,7 +30,7 @@ const Contact =()=>{
             </a>
         </div>
         </div>
-    </div>
+    // </div>
     )
 }
 
