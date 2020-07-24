@@ -185,7 +185,7 @@ padding-bottom: 15%;
 }
 
 /* mobile devices */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
     .landing-head{
         margin-top: 3rem;
         font-size: 3rem;
@@ -237,6 +237,91 @@ padding-bottom: 15%;
 }
 .btns button{
    margin:0.5rem;
-    width:10rem;
+    width:15rem;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+      .landing-head{
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+    .landing-subhead{
+        font-size: 2.5rem;   
+    }
+    .info-skills{
+        width: 90%
+    }
+    .info-det{
+        width: 95%;
+        font-size: 1.4rem;
+    }
+    .skill-text{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .skills-progress{
+        display:flex;
+        flex-direction: column;
+    }
+    .prjct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+  .project-block {
+    width: 80%;
+    height: 43rem;
+    margin: 4rem auto 0rem auto;
+      font-size: 1.5rem;     
+  } 
+  .project-image{
+    width: 100%;
+    height: 18rem;
+    border-radius: 80px 80px 80px 80px;
+}
+.project-head{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.btns button{
+   margin:0.5rem;
+    width:20rem;
 }
 } 
+@media screen and (max-width: 1000px) and (min-width: 769px){
+    .info-skills{
+    width: 80%;
+}
+     .prjct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+  .project-block {
+    width: 70%;
+    height: 43rem;
+    margin: 4rem auto 0rem auto;
+      font-size: 2rem;     
+  } 
+  .project-image{
+    width: 100%;
+    height: 20rem;
+    border-radius: 80px 80px 80px 80px;
+}
+}
+@media screen and (max-width: 1650px) and (min-width: 1001px){
+    .prjct{
+    grid-template-columns: 50% 50%;
+}
+
+}
