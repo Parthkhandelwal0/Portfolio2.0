@@ -1,6 +1,8 @@
 *{
-    font-family: "McLaren";
+    font-family: 'McLaren';
+
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #dffaf5;
@@ -130,14 +132,16 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
     display: flex;
     position: absolute;
     bottom: 1rem;
+   
 }
 .btns button{
+    background-color: black;
    margin-left:1rem;
     margin-right: 1rem;
    box-shadow: 6px 6px 20px #00000029;
   font: Bold 24px Product-Sans;
-  color: #000000;
-  background-color: #fff;
+  color:white;
+ 
   border-radius: 15px;
   height: 4rem;
   opacity: 70%;

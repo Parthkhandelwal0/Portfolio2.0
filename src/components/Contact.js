@@ -12,7 +12,7 @@ const Contact =()=>{
         <p class="text-grey i2"><i class="fa fa-envelope fa-fw tcolor"></i><a href="kparth2010@gmail.com">kparth2010@gmail.com</a></p >
         <p class="text-grey i3"><i class="fa fa-phone fa-fw tcolor "></i><a href="tel:+91903489502">(91+) 9013489502</a></p>
         </div> */}
-        <div class="icons2">
+        <div class="icons2" id="icons">
             <a href="https://twitter.com/cyborg_parth"  >
                 <i class="fab fa-twitter fa-4x"></i>
             </a>

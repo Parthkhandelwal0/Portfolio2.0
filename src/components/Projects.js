@@ -7,7 +7,7 @@ function Projects(props){
     return(
     <div>
     <div className="project-head">
-    PROJECTS
+    &lt; PROJECTS /&gt;
     </div>
     <div className="prjct">
     {projects.map((project)=>{
