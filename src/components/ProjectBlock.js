@@ -8,8 +8,8 @@ function ProjectBlock(props){
             <div className="prjct-title">{props.title}</div>
             <div className="prjct-content">{props.content}</div>
             <div className="btns">
-            <button>know more</button>
-            <button>know more</button>
+            <button className="github">Github </button>
+            <button className="website">Website</button>
             </div>
             </div>
     )

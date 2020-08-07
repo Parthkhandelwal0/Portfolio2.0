@@ -1,5 +1,6 @@
 *{
-    font-family: 'McLaren';
+    /* font-family: 'McLaren'; */
+    font-family: 'Inter', sans-serif;
 
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -37,6 +38,8 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
     font-size: 3rem;
 }
 .info-det{
+    font-family: 'Roboto', sans-serif;
+
     color:black;
     margin: 2rem auto;
     width: 60%;
@@ -83,8 +86,8 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
 }
 .profile-image{
     margin-top: 1rem;
-    width: 13.5rem;
-    height: 16rem;
+    width: 16rem;
+    height:20rem;
     border-radius: 10%;
 }
 .prjct{
@@ -107,7 +110,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
     display: flex;
     flex-direction: column;
     align-items: center;
-   font-family: "McLaren";
+    font-family: 'Roboto', sans-serif;
       font-size: 1.8rem;
       background-color: white;
   } 
@@ -135,17 +138,24 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
    
 }
 .btns button{
-    background-color: black;
    margin-left:1rem;
     margin-right: 1rem;
    box-shadow: 6px 6px 20px #00000029;
   font: Bold 24px Product-Sans;
-  color:white;
+  
  
   border-radius: 15px;
   height: 4rem;
   opacity: 70%;
   font-family: "McLaren";
+}
+.github{
+    background-color: black;
+    color:white;
+}
+.website{
+    background-color: white;
+    color: black;
 }
 .contact{
     font-family: "McLaren";
@@ -155,7 +165,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
     justify-content: center;
     text-align: center;
    /* background-color: #0a0003;
-   background-image: url(http://www.transparenttextures.com/patterns/dark-stripes.png);  */
+   background-image: url(http://www.transparenttextures.com/patterns/dark-stripes.png); */
    color: black;  
 }
 .contact-head{
@@ -307,6 +317,9 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.
 @media screen and (max-width: 1000px) and (min-width: 769px){
     .info-skills{
     width: 80%;
+}
+.info-det{
+    width:80%;
 }
      .prjct{
     display: flex;

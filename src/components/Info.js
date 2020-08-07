@@ -17,7 +17,7 @@ const Info = ()=>(
         Graduated from Mount Carmel School, Dwarka in 2018
         HOBBIES
         I like to read, play games, listen to music and watch a lot of football
-        Want to know more? View 
+        Want to know more? View More
         </div>
         <div className="info-skills">
         <div className="skill-text">
