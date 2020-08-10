@@ -6,7 +6,7 @@ import projects from "../projects"
 function Projects(props){
     return(
     <div>
-    <div className="project-head">
+    <div className="project-head" id="projects">
     &lt; PROJECTS /&gt;
     </div>
     <div className="prjct">
@@ -17,6 +17,8 @@ function Projects(props){
         title={project.title}
         content={project.content}
         image={project.image}
+        github={project.github}
+        website={project.website}
         />
         )
     })}

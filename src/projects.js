@@ -3,34 +3,41 @@
 const projects = [
     {
       key: 1,
-      title: "Delegation",
+      title: "PackGrow",
       content:
         "created using flask, sqlalchemy,javascript,css,html it contains dynamic landing and home pages,a register/signin system",
         
-        image:"./images/landing.jpeg"
+        image:"./images/packgrow.png",
+        github:"https://github.com/Parthkhandelwal0/PackGrow",
+        website: ""
     },
     {
       key: 2,
-      title: "Loops",
+      title: "KeepNotes",
       content:
-        "a to-do app created using html, css, REACT(javascript frontend library) and materialUI which allows you to add or delete notes",
-        image:"./images/landing.jpeg"
+        "A Google Keep Notes clone created using html, css, REACT and materialUI which allows you to add or delete notes",
+        image:"./images/keepnotes2.png",
+        github:"https://github.com/Parthkhandelwal0/KeepNotes",
+        website:""
 
     },
     {
       key: 3,
-      title: "Arrays",
+      title: "BlogSite",
       content:
-        "a blog website write about stuff that excites you uses NodeJs, Mongodb, Mongoose,Express, Bootsrap, HTML, CSS",
-        image:"./images/landing.jpeg"
-
+        "a blog website to write about stuff that excites you uses NodeJs, Mongodb, Mongoose,Express, Bootsrap, HTML, CSS",
+        image:"./images/blog3.jpg",
+        github:"https://github.com/Parthkhandelwal0/Blogwebsite",
+        website:"https://dailyjournal10.herokuapp.com/"
     },
     {
       key: 4,
-      title: "Hardware vs. Software",
+      title: "Covid19 live",
       content:
         "a project to track infected, recovered and total death caused by COVID-19, uses html, css,React.js, Material UI,chart.js",
-        image:"./images/landing.jpeg"
+        image:"./images/COVID19.png",
+        github:"https://github.com/Parthkhandelwal0/COVID-19",
+        website:"https://covid-19-54791.web.app/"
 
     }
   ];

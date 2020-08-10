@@ -4,7 +4,7 @@ import ProgressBar from 'react-animated-progress-bar';
 
 
 const Info = ()=>(
-    <div className="info">
+    <div className="info" id="info">
        <div className="info-head">
        &lt; INFO /&gt;
        </div>
@@ -30,7 +30,7 @@ const Info = ()=>(
           height="10px"
           fontColor="white"
           trackWidth="30"
-          percentage="40"
+          percentage="80"
           trackPathColor="white"
           trackBorderColor="black"
           hollowBackgroundColor="#0a0003"
@@ -42,7 +42,7 @@ const Info = ()=>(
           height="10px"
           fontColor="white"
           trackWidth="30"
-          percentage="40"
+          percentage="60"
           trackPathColor="white"
           trackBorderColor="black"
           hollowBackgroundColor="#0a0003"
@@ -54,7 +54,7 @@ const Info = ()=>(
           height="10px"
           fontColor="white"
           trackWidth="30"
-          percentage="40"
+          percentage="80"
           trackPathColor="white"
           trackBorderColor="black"
           hollowBackgroundColor="#0a0003"
@@ -66,7 +66,7 @@ const Info = ()=>(
           height="10px"
           fontColor="white"
           trackWidth="30"
-          percentage="40"
+          percentage="70"
           trackPathColor="white"
           trackBorderColor="black"
           hollowBackgroundColor="#0a0003"
@@ -78,7 +78,7 @@ const Info = ()=>(
           height="10px"
           fontColor="white"
           trackWidth="30"
-          percentage="40"
+          percentage="90"
           trackPathColor="white"
           trackBorderColor="black"
           hollowBackgroundColor="#0a0003"

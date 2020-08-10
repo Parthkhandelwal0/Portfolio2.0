@@ -4,7 +4,7 @@ import Typical from "react-typical"
 import ProfilePic from "../images/profile_pic.jpeg"
 
 const Landing = ()=>(
-    <div className="landing">
+    <div className="landing" id="landing">
         <div className="landing-head">
          &lt; Parth Khandelwal /&gt;
         </div>
