@@ -10,12 +10,10 @@ const Info = ()=>(
        </div>
         <div className="info-det">
         Hola! I'm Parth Khandelwal and I'm a full-stack web developer currently living in Dwarka, New Delhi. 
-        I try to make responsive and dynamic websites using html,css,javascript and python
-        
-        Currently pursuing Btech in Information Technology from University School Of Information 
-        Communication And Technology (USICT), Dwarka, GGSIPU, New Delhi
-        Graduated from Mount Carmel School, Dwarka in 2018
-       
+        I try to make responsive and dynamic websites using html, css, Javascript, React and Python.
+        I am Currently pursuing Btech in Information Technology from University School Of Information 
+        Communication And Technology (USICT), Dwarka, GGSIPU, New Delhi.
+        I Graduated from Mount Carmel School, Dwarka in 2018.
         I like to read, play games, listen to music and watch a lot of football
        
         </div>
