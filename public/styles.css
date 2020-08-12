@@ -10,10 +10,8 @@ body{
 background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 .nav{
-    opacity: 97%;
+    opacity: 97% !important;
     background-color: #0a0003 !important;
-    position: fixed;
-  
 }
 .landing{
     opacity: 97%;
