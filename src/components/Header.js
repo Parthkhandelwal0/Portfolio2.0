@@ -13,7 +13,7 @@ const Header = () => (
     <Nav.Link href="#info">Info</Nav.Link>
     <Nav.Link href="#projects">Projects</Nav.Link>
     <Nav.Link href="#icons">Contact</Nav.Link>
-    <Nav.Link href="https://medium.com/@kparth2010">Blogs</Nav.Link>
+    <Nav.Link href="https://medium.com/@kparth2010">Blog</Nav.Link>
    </Nav>
    </Navbar.Collapse>
   </Navbar> 
