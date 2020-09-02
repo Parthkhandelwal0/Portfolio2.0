@@ -3,13 +3,13 @@
 const projects = [
     {
       key: 1,
-      title: "PackGrow",
+      title: "NewsApp",
       content:
-        "created using flask, sqlalchemy,javascript,css,html it contains dynamic landing and home pages,a register/signin system",
+        "created using React, ALan Ai, it is a news app that uses newsAPI to search for news and is fully voice controlled",
         
-        image:"./images/packgrow.png",
-        github:"https://github.com/Parthkhandelwal0/PackGrow",
-        website: ""
+        image:"./images/news.jpeg",
+        github:"https://github.com/Parthkhandelwal0/Voice_controlled_NewsApp",
+        website: "https://voiceassistantnewsapp.netlify.app/"
     },
     {
       key: 2,
